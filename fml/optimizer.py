@@ -29,7 +29,7 @@ class Optimizer:
         objective = []
         for _, row in self.input_data.iterrows():
             val = _get_val(self.movie_counts[row.movie], solved)
-            objective.append(val * (row.revenue - row.cost))
+            objective.append(val * row.revenue)
         return lpSum(objective) if solved else np.sum(objective)
 
     def get_constraints(self):
