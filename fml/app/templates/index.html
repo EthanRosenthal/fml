@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FML</title>
+  </head>
+  <body>
+    <h1>Welcome to FML. </h1>
+    <p>
+      Click below to run calculation.
+      <form action="/dev/" method="post">
+        <input type="submit" name="calculate" value="Calculate"/>
+      </form>
+    </p>
+    {% for line in solution_msg %}
+    <p>
+      {{ line }}
+    </p>
+    {% endfor %}
+  </body>
+</html>

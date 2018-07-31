@@ -1,0 +1,6 @@
+num_screens: 8
+empty_screen_cost: 2000000
+budget: 1000
+workbook: 'FML'
+creds_file: 'client_secrets.json'
+service_file: 'service_key.json'
