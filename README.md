@@ -37,6 +37,10 @@ If running the Flask app locally, then replace [this line](https://github.com/Et
 ## Deployment
 
 
+Make a virtual enviornment (using `virtualenv`) with any name that is not `fml`.
+
+Next, use [Zappa](https://github.com/Miserlou/Zappa) to initialize and deploy the app.
+
 ```bash
 zappa init
 zappa deploy dev
