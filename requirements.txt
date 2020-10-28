@@ -46,7 +46,7 @@ tqdm==4.19.1
 troposphere==2.3.1
 Unidecode==1.0.22
 uritemplate==3.0.0
-urllib3==1.23
+urllib3==1.24.2
 Werkzeug==0.14.1
 wsgi-request-logger==0.4.6
 zappa==0.46.2
